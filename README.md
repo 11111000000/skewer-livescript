@@ -6,9 +6,8 @@ Emacs skewer mode for livescript
 Installation
 ------------
 
-Make sure you set the load-path correctly.
-
-Add to you init.el:
+1. Make sure you set the load-path correctly.
+1. Add to you init.el:
 
 ```lisp
   (require 'skewer-livescript)
@@ -19,11 +18,11 @@ Add to you init.el:
                                     ))
 ```
 
-Start server: `M-x httpd-start`
-Add skewer to you project index as describe in Skewer documentation or `M-x run-skewer`
+1. Start server: `M-x httpd-start`
+1. Add skewer to you project index as describe in Skewer documentation or run `M-x run-skewer`
 
 Keybindings
 -----------
 
-* **C-c C-e**  run current selection region
-* **C-c C-z**  bring you LiveScript REPL
+* `C-c C-e`  run current selection region
+* `C-c C-z`  bring you LiveScript REPL
