@@ -43,7 +43,7 @@
   "Keymap for `skewer-livescript-mode'.")
 
 ;;;###autoload
-(define-minor-mode skewer-livescript-mode2
+(define-minor-mode skewer-livescript-mode
   "Minor mode allowing LiveScript manipulation via `skewer-mode'. "
   nil
   "skewer-livescript"
@@ -65,8 +65,8 @@
 
   ;; TODO to experiment without partial application:
   (apply (apply-partially 'call-process-region start end
-                          livescript-command    ; compile text
-                          nil                    ; don't delete it
+                          livescript-command    ; compile
+                          nil                     ; don't delete original text
                           (get-buffer-create livescript-compiled-buffer-name) ; output buffer
                           nil)
          (append livescript-args-compile (list "-s" "-p" "-b")))
