@@ -16,10 +16,10 @@ Installation
   ```
 
 3. Start server: `M-x httpd-start`
-4. Add skewer to you project index as describe in Skewer documentation or run `M-x run-skewer`
+4. Add skewer to you project index as described in Skewer documentation or run `M-x run-skewer`
 
 Keybindings
 -----------
 
-* `C-c C-e`  run current selection region
-* `C-c C-z`  bring you LiveScript REPL
+* `C-c C-e`  run selection region
+* `C-c C-z`  LiveScript REPL
