@@ -1,11 +1,13 @@
 skewer-livescript
 =================
-This is a Emacs Skewer mode and REPL for LiveScript
+Emacs Skewer mode and REPL for LiveScript
 Installation
 ------------
 
-1. Make sure you set the load-path correctly.
-2. Add to you init.el:
+0. Install [Skewer mode](https://github.com/skeeto/skewer-mode "Skewer Mode")
+0. Clone this repo
+0. Make sure you set the *load-path* correctly
+0. Add this to you init.el:
 
   ```lisp
   (require 'skewer-livescript)
@@ -15,8 +17,8 @@ Installation
                                    (skewer-livescript-mode t)))
   ```
 
-3. Start server: `M-x httpd-start`
-4. Add skewer to you project index as described in Skewer documentation or run `M-x run-skewer`
+0. Start server: `M-x httpd-start`
+0. Add skewer to you project index as described in Skewer documentation or run `M-x run-skewer`
 
 Keybindings
 -----------
