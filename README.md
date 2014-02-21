@@ -19,11 +19,11 @@ Add to you init.el:
                                     ))
 ```
 
-Start server: =M-x httpd-start=.
-Add skewer to you project index as describe in Skewer documentation or M-x =run-skewer=
+Start server: `M-x httpd-start`
+Add skewer to you project index as describe in Skewer documentation or `M-x run-skewer`
 
 Keybindings
 -----------
 
-=C-c C-e=  run current selection region
-=C-c C-z=  bring you LiveScript REPL
+* **C-c C-e**  run current selection region
+* **C-c C-z**  bring you LiveScript REPL
