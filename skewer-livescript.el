@@ -24,13 +24,6 @@
 
 ;; Minor mode allowing LiveScript eval via `skewer-mode'.
 
-;; Note that this is intended for use in place of `skewer-mode',
-;; which does not work with LiveScript.
-
-;; Enable `skewer-livescript-mode' in a ".livescript" buffer. Save the buffer to
-;; trigger an update, or hit "C-c C-k" just like in
-;; `skewer-mode'.
-
 ;;; Code:
 
 (require 'skewer-mode)
