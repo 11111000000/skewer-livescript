@@ -23,5 +23,5 @@ Installation
 Keybindings
 -----------
 
-* `C-c C-e`  run selection region
+* `C-c C-e`  Eval selected region of LiveScript
 * `C-c C-z`  LiveScript REPL
