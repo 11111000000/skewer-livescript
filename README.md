@@ -1,5 +1,5 @@
-skewer-livescript-mode
-======================
+skewer-livescript
+=================
 
 Emacs skewer mode for livescript
 
