@@ -19,7 +19,6 @@
 (require 'compile)
 (require 'livescript-mode)
 (require 'skewer-mode)
-(require 'livescript-mode)
 
 (defcustom skewer-livescript-repl-strict-p nil
   "When non-NIL, all REPL evaluations are done in strict mode."
